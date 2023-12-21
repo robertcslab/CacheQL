@@ -2,12 +2,20 @@
 # CacheQL
 Research Artifact of USENIX Security 2023 Paper: *CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software*
 
-Preprint: https://arxiv.org/pdf/2209.14952.pdf
+Published paper: https://www.usenix.org/system/files/sec23summer_195-yuan_yuanyuan-prepub.pdf
 
-## Note
+## Citation
 
-**Warning**: This repo is provided as-is and is only for research purposes. Please use it only on test systems with no sensitive data. You are responsible for protecting yourself, your data, and others from potential risks caused by this repo.
+If CacheQL is helpful for your research, please consider cite our work as follows:
 
+```bib
+@inproceedings{yuan2023cacheql,
+  title={CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software},
+  author={Yuan, Yuanyuan and Liu, Zhibo and Wang, Shuai},
+  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
+  year={2023}
+}
+```
 
 ## Installation
 
@@ -275,16 +283,17 @@ The full report of our localized side channel vulnerabilities is provided at the
 
 We sincerely thank Janos Follath (developer of MbedTLS), Matt Caswell (developer of OpenSSL), and developers of Libjpeg-turbo for their prompt responses and comments on our reported vulnerabilities.
 
-## Citation
+## References
 
-If CacheQL is helpful for your research, please consider cite our work as follows:
+List of projects that was instrumental in developing and testing our work:
 
 ```bib
-@inproceedings{yuan2023cacheql,
-  title={CacheQL: Quantifying and Localizing Cache Side-Channel Vulnerabilities in Production Software},
-  author={Yuan, Yuanyuan and Liu, Zhibo and Wang, Shuai},
-  booktitle={32nd USENIX Security Symposium (USENIX Security 23)},
-  year={2023}
+@software{gitness,
+  title={Gitness is an Open Source developer platform with Source Control management, Continuous Integration and Continuous Delivery.},
+  author={Johannes Batzil, Tan Nhu, Enver Bisevac, Marko Gacesa, Calvin Lee, Abhinav Singh, Atefeh Mohseni Ejiyeh, Hitesh Aringa, Akhilesh Pandey, Shubham Banthia, Vardan Bansal, Ritik Kapoor, Dan Wilson, Vistaar Juneja},
+  license={Apache-2.0},
+  year={2023},
+  url={https://github.com/harness/gitness}
 }
 ```
 
