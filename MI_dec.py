@@ -53,7 +53,7 @@ if __name__ == '__main__':
         json.dump(args.__dict__, f)
 
     loader = utils.DataLoader(args)
-
+    # set fit dataset
     fit_dataset = RSADatasetMultiDec(
                     args,
                     key_dir=args.key_dir, 
