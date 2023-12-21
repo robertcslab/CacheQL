@@ -288,6 +288,21 @@ We sincerely thank Janos Follath (developer of MbedTLS), Matt Caswell (developer
 List of projects that was instrumental in developing and testing our work:
 
 ```bib
+@software{OpenSSL,
+  title={OpenSSL: TLS/SSL and crypto library},
+  author={Richard Levitte, Stephen Henson, Matt Caswell, Bodo Moeller,David von Oheimb},
+  license={Apache-2.0},
+  year={2020},
+  url={https://github.com/openssl/openssl}
+}
+@software{mbedtls,
+  title={An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.},
+  author={Manuel Pégourié-Gonnard, Gilles Peskine, Hanno Becker, Jerry Yu},
+  license={Apache-2.0},
+  year={2022},
+  url={https://github.com/Mbed-TLS/mbedtls}
+}
+
 @software{gitness,
   title={Gitness is an Open Source developer platform with Source Control management, Continuous Integration and Continuous Delivery.},
   author={Johannes Batzil, Tan Nhu, Enver Bisevac, Marko Gacesa, Calvin Lee, Abhinav Singh, Atefeh Mohseni Ejiyeh, Hitesh Aringa, Akhilesh Pandey, Shubham Banthia, Vardan Bansal, Ritik Kapoor, Dan Wilson, Vistaar Juneja},
